@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    margin: 40px 0;
+}
+.container {
+    height: 600px;
+    display: flex;
+    justify-content: center; /*centraliza os elementos que estão na div container. O jc tem outras props: space-between...*/
+    align-items: center; /*centraliza os elementos que estão na div container*/
+    /*Flex-direction: column -- para deixar alinhado em coluna*/
+    /*Flex-direction: column-reverse -- para deixar alinhado em coluna invertendo os elementos*/
+    /*Flex-direction: row-reverse -- para deixar alinhado em linha invertendo os elementos*/
+    background-color: #c4c4c4;
+}
+
+.container div {
+    /*flex: 1; Deixa as divs ocuparem o espaço total da tela*/
+    background: rgb(184, 22, 22);
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    height: 100px;
+    width: 100px;
+}

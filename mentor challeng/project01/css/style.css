@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;  
+}
+
+body {
+    background: url('../img/fundo.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /*background: hsl(225, 100%, 98%);*/
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    background-color: white;
+    max-width: 506px;
+    border-radius: 1rem;
+}
+
+main .ilusta {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0 60px;
+}
+
+section h1 {
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+section p {
+    color: 5B5B5B;
+    text-align: center;
+    line-height: 24px;
+}
+
+section .information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 32px 72px;
+}
+
+section .information .music-price {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+
+section .information .music-price .price {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+section .information a {
+    color: #0153B6;
+    font-size: 16px;
+    font-weight: 700;
+    transition: all 0.3s;
+}
+
+section .information a:hover {
+    text-decoration: none;
+} 
+
+section button {
+    background-color: #0153B6;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-shadow: 0px 20px 20px rgba(57, 46, 189, 0.2);
+    margin-bottom: 16px;
+
+    transition: all 0.5s;
+}
+
+section button:hover {
+    background-color: #0b2f5b;
+}
+
+section .cancel-order {
+    color: #5B5B5B;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 32px;
+
+    transition: all 0.3s;
+}
+
+section .cancel-order:hover {
+    text-decoration: none;
+}

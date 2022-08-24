@@ -1,0 +1,14 @@
+/*GRID 'NORMAL' DO SITE -- ADD mais 30px. Aumentar o max-width q originalmente é 1216*/
+
+.container {
+    width: 100%;
+    max-width: 1246px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*GRID FLUÍDA*/
+.container-fluid {
+    width: 100px;
+    padding: 0px 15px;
+}
